@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i");
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #665f60; }
+
+/* Layout */
+.ba-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1180px; }
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+.ba-header-menu {
+  padding-top: 36px; }
+
+.ba-header {
+  background: url("../img/bg.jpg");
+  padding-bottom: 300px; }
+
+.ba-nav {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+.ba-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.ba-menu a {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2.5;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.6;
+  margin: 0 15px;
+  text-transform: uppercase; }
+
+.ba-menu a:hover {
+  color: #665f60; }
+
+.ba-menu li:last-child a {
+  margin-right: 0; }
+
+.ba-menu li:first-child a {
+  margin-left: 0; }
+
+.ba-header-title {
+  font-size: 70px;
+  font-family: ProximaNova;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  padding-top: 329px; }
+
+.ba-header-subtitle {
+  font-size: 30px;
+  font-family: "PT Sans", sans-serif;
+  color: #fefdfd;
+  line-height: 1;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100; }
+
+.ba-center-img {
+  height: 557px;
+  width: 378px;
+  background-image: url("../img/about_us.jpg");
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.ba-center-name {
+  font-size: 35px;
+  color: #fefbfc;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.7;
+  font-family: ProximaNova;
+  padding-top: 90px; }
+
+.ba-center-icon {
+  padding-left: 100px; }
+
+.ba-center {
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.ba-center-about-text {
+  color: #665f60;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 129px;
+  padding-top: 200px; }
+
+.ba-center-about-text span {
+  font-weight: 800; }
+
+.ba-button {
+  display: inline-block;
+  padding: 16px 50px;
+  border: 1px solid #7d7a7c;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  color: #7d7a7c;
+  margin-top: 100px;
+  margin-left: 348px; }
+
+.ba-button:hover {
+  background-color: #cccccc;
+  opacity: 0.7; }
+
+.ba-works {
+  background-image: url("../img/works-bg.jpg");
+  text-align: center; }
+
+.ba-our-works-icon {
+  padding-top: 50px; }
+
+.ba-our-works-name {
+  font-family: ProximaNova;
+  font-weight: 400;
+  color: #fefcfd;
+  font-size: 36px; }
+
+.ba-our-works-img {
+  padding-top: 70px; }
+
+.ba-footer {
+  background-color: #9f9acf;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 60px; }
+
+.ba-footer span {
+  font-weight: 900; }
+
+.ba-footer-social-icons {
+  padding-left: 500px; }
+
+.ba-footer-social-icons img {
+  margin-left: 20px; }
